@@ -22,6 +22,9 @@ const options = {
       iziToast.error({
         title: 'Error',
         message: 'Please choose a date in the future',
+        backgroundColor: '#ef4040',
+        theme: 'dark',
+        position: 'topRight',
       });
       btn.disabled = true;
     } else {
