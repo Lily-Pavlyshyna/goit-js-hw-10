@@ -52,7 +52,7 @@ fieldset:active {
   stroke-width: 1px;
   border: 1.5px solid #000;
 }
-button {
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
