@@ -1,0 +1,71 @@
+.iziToast-icon {
+  font-style: normal;
+}
+body {
+  font-family: 'Montserrat Regular', sans-serif;
+  padding: 36px 156px;
+}
+.form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+label {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.dl-input {
+  display: block;
+  margin-top: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.dl-input:hover {
+  border: 1.5px solid #000;
+}
+.dl-input:active,
+.dl-input:focus {
+  border: 1.5px solid #4e75ff;
+  outline: none;
+}
+fieldset {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+  gap: 48px;
+  padding: 0;
+}
+fieldset:hover,
+fieldset:active {
+  border-radius: 4px;
+  stroke-width: 1px;
+  border: 1.5px solid #000;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
